@@ -1,0 +1,12 @@
+{
+    "name": "hostgun/contracts",
+    "description": "The HostGun Contracts package.",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HostGun\\Contracts\\": ""
+        }
+    }
+}

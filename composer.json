@@ -1,0 +1,15 @@
+{
+    "name": "hostgun/hostgun",
+    "description": "The HostGun package.",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "replace": {
+        "hostgun/contracts": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "HostGun\\": "src/HostGun/"
+        }
+    }
+}
